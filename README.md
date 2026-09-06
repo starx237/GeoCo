@@ -1,5 +1,7 @@
 # GeoCo-SAVi
 
+![img](architecture.pdf)
+
 GeoCo-SAVi is a geometry-consistent slot-attention model with an explicit appearance state `a`, position `p`, and scale `s`. Position and scale are read from normalized attention moments, while a geometry-conditioned RGB/alpha decoder makes those variables effective controls of the rendered support.
 
 This repository contains the method-defining core used for the Obj3D and MOVi-C protocols:
